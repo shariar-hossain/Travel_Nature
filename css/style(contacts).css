@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=David+Libre:wght@500&display=swap');
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  font-family: 'David Libre';
+  font-size: 12px;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  color: whitesmoke;
+  background-image: linear-gradient(rgba(4,9,30,0.7), rgba(4,9,30,0.7)), url(../images/saint.jpg);
+  /*background-repeat: no-repeat;
+  background-size: cover;*/
+}
+
+.ba{
+	text-decoration: none;
+	background: #555;
+	padding: 10px 15px;
+	color: #fff;
+	border-radius: 5px;
+	margin-right: 10px;
+	border: none;
+	float: right;
+  font-size: 20px;
+}
+.ba:hover{
+  background: white;
+  color: black;
+  box-shadow: 0 0 10px white;
+}
+
+a {
+  text-decoration: none;
+  color: rgb(3, 155, 155);
+  align-items: center;
+}
+
+a:hover {
+  color: rgba(249, 105, 14, 1);
+}
+
+.container {
+  width: 100%;
+  max-width: 90rem;
+  margin: 0 auto;
+  padding: 0 1.5rem;
+}
+
+.contact {
+  width: 100%;
+  min-height: 100vh;
+  max-width: 70rem;
+  margin: auto;
+  padding-top: 5rem;
+}
+
+.contact h2 {
+  text-align: center;
+  font-size: 2.5rem;
+  margin-bottom: 5rem;
+}
+
+.contact p {
+  
+  font-size: 1.4rem;
+  padding: 0;
+  margin: 0.9rem 2rem;
+  font-size: 1.4rem;
+}
+
+.contact .container {
+  min-height: 50vh;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+/*.contact .container {
+    flex-direction: column;
+  }*/
+
